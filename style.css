@@ -127,29 +127,32 @@ font-size: 1.5em;
   font-size: 7em;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 769px) {
   .block{
     float: none;
     margin: 75px auto;
     width: 43%;
+   }
 
-  }
   .block.insurance {
     margin-left: 29%;
   }
+
   .container p {
     max-width: 100%;
     font-size:1.5em;
   }
+
   .plus{
 font-size: 9em;
   }
+
   span{
     font-size: 2em;
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1021px){
 
   .block{
     float: none;
@@ -161,12 +164,14 @@ font-size: 9em;
   .block.insurance{
     margin-left: 30%;
   }
-
 }
 
-@media screen and (max-device-width: 1203px) {
-  .block.insurance{
-    margin-left:28%;
+@media only screen and (min-device-width : 1021px) and (max-device-width : 1203px){
 
+  .block{
+    width:26%;
+  }
+  .block.insurance{
+    margin-left:4%;
   }
 }
