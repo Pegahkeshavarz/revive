@@ -83,16 +83,18 @@ nav a:focus{
 }
 
 .getting-approved{
-
-color:rgb(23,177,240);
-font-size: 2em;
-text-align: center;
-margin-bottom: 20px;
+color:#00C8FF;
+font-size:3em;
+text-align:center;
+margin-bottom:20px;
 }
 
 
-p {
+.container p {
   text-align: center;
+  font-size: 1.2em;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 i{
@@ -130,9 +132,19 @@ font-size: 1.5em;
     float: none;
     margin: 75px auto;
     width: 43%;
+
   }
   .block.insurance {
     margin-left: 29%;
+  }
+  .container p {
+    max-width: 100%;
+  }
+  .plus{
+font-size: 9em;
+  }
+  span{
+    font-size: 2em;
   }
 }
 
@@ -142,11 +154,13 @@ font-size: 1.5em;
     float: none;
     margin: 75px auto;
     width: 43%;
+
   }
 
   .block.insurance{
     margin-left: 30%;
   }
+
 }
 
 @media screen and (max-device-width: 1203px) {
