@@ -101,6 +101,10 @@ i{
   color:rgb(23,177,240);
   margin-left:7px;
 }
+i:hover{
+  cursor: help;
+  content:"upload your insurance";
+}
 
 span {
 color:rgb(23,177,240);
@@ -116,6 +120,9 @@ font-size: 1.5em;
   text-align: center;
   padding: 25px;
 }
+.plus:hover{
+  cursor: pointer;
+}
 
 .block.insurance{
   margin-left: 12%;
@@ -127,7 +134,7 @@ font-size: 1.5em;
   font-size: 7em;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 769px) {
+@media(min-width : 320px) and (max-width : 769px) {
   .block{
     float: none;
     margin: 75px auto;
@@ -152,7 +159,7 @@ font-size: 9em;
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1021px){
+@media(min-width : 768px) and (max-width : 1021px){
 
   .block{
     float: none;
@@ -166,7 +173,7 @@ font-size: 9em;
   }
 }
 
-@media only screen and (min-device-width : 1021px) and (max-device-width : 1203px){
+@media(min-width : 1021px) and (max-width : 1203px){
 
   .block{
     width:26%;
